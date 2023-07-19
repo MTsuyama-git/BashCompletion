@@ -1,0 +1,15 @@
+Debug/
+Release/
+*.tlog
+*.ilk
+*.recipe
+*.obj
+*.pdb
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.cmake
+CmakeCache.txt
+.vc/
+.vscode/
+CMakeFiles/
