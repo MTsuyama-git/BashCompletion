@@ -2,10 +2,14 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <thread>
+#include <chrono>
 
 int main(int argc, char** argv)
 {
     std::vector<std::string> line_lists;
+
+    std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
     std::fstream ifs("completion.lst", std::ios::in);
     if(ifs.is_open() == false) 
